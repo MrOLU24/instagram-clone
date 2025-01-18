@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Loading from "../components/Loading"; 
+import Loading from "../components/Loading";
 
 const Login = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +21,7 @@ const Login = () => {
   // Render the login page after loading is complete
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gray-50">
-      <div className="bg-white p-6 shadow-md rounded-lg w-full max-w-sm">
+      <div className="bg-white p-6 border border-gray-300 w-full max-w-sm">
         {/* Instagram Logo */}
         <div className="flex justify-center mb-6">
           <img
@@ -72,9 +72,11 @@ const Login = () => {
         </span>
       </div>
       <div className="flex justify-center items-center w-96 m-5 bg-gray-50">
-        <div className="flex gap-2 bg-white p-10 shadow-md text-center rounded-lg w-full max-w-2xl">
+        <div className="flex justify-center gap-2 text-sm bg-white p-10 border border-gray-300 text-center w-full max-w-2xl">
           <p>Don't have an account? </p>
-          <a href=""> Sign Up</a>
+          <a href="" className="text-blue-500 font-semibold hover:underline">
+            Sign Up
+          </a>
         </div>
       </div>
     </div>

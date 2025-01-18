@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-const Explore = () => {
-  return <div className="text-center">Explore Page Coming Soon!</div>;
-};
+// const Explore = () => {
+//   return <div className="text-center">Explore Page Coming Soon!</div>;
+// };
 
-export default Explore;
+// export default Explore;

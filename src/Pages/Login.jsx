@@ -21,7 +21,7 @@ const Login = () => {
   // Render the login page after loading is complete
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gray-50">
-      <div className="bg-white p-6 border border-gray-300 w-full max-w-sm">
+      <div className="bg-white p-5 border border-gray-300 w-full max-w-sm">
         {/* Instagram Logo */}
         <div className="flex justify-center mb-6">
           <img
@@ -36,12 +36,12 @@ const Login = () => {
           <input
             type="text"
             placeholder="Phone number, username, or email address"
-            className="border rounded-md py-2 px-3 w-full focus:outline-none placeholder:text-xs"
+            className="border rounded-md py-2 px-2 w-full focus:outline-none placeholder:text-xs"
           />
           <input
             type="password"
             placeholder="Password"
-            className="border rounded-md py-2 px-3 w-full focus:outline-none placeholder:text-sm"
+            className="border rounded-md py-2 px-2 w-full focus:outline-none placeholder:text-sm"
           />
           <button
             type="submit"
@@ -67,18 +67,33 @@ const Login = () => {
             Log in with Facebook
           </p>
         </span>
-        <span className="flex items-center justify-center space-x-1 text-center text-sm py-2 rounded-md cursor-pointer transition">
+        <span className="flex items-center justify-center m-1 space-x-1 text-center text-sm py-2 rounded-md cursor-pointer transition">
           <p>Forgotten your password?</p>
         </span>
       </div>
       <div className="flex justify-center items-center w-96 m-5 bg-gray-50">
-        <div className="flex justify-center gap-2 text-sm bg-white p-10 border border-gray-300 text-center w-full max-w-2xl">
+        <div className="flex justify-center gap-2 text-sm bg-white p-5 border border-gray-300 text-center w-full max-w-2xl">
           <p>Don't have an account? </p>
           <a href="" className="text-blue-500 font-semibold hover:underline">
             Sign Up
           </a>
         </div>
       </div>
+      <section className="flex flex-col items-center justify-center w-full max-w-sm">
+        <p className="text-sm m-2">Get the App</p>
+        <div className="flex justify-center gap-2">
+          <img
+            className="w-40 h-10"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+            alt="googleplay"
+          />
+          <img
+            className="w-40 h-10"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7TO6rfkqNNVUKRbZfnVr0VMMQ1LUuvlCGA&s"
+            alt="microsoftstore"
+          />
+        </div>
+      </section>
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../components/Loading";
+import SwiperCarousel from "../components/SwiperCarousel";
 
 const Login = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,11 +22,22 @@ const Login = () => {
   // Render the login page after loading is complete
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gray-50">
+      <div className="flex w-[70%]  max-w-6xl space-x-8">
+        <div className="hidden lg:flex flex-col justify-center items-center relative">
+          <div className="relative">
+            <img
+              src="https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot4.png?__d=www"
+              alt="mock up"
+            />
+          </div>
+          <SwiperCarousel />
+        </div>
+      </div>
       <div className="bg-white p-5 border border-gray-300 w-full max-w-sm">
         {/* Instagram Logo */}
         <div className="flex justify-center mb-6">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMKf3kfBtWETtA4_SbBXJqmCH830YAL0iWHw&s"
+            src="/src/assets/igimage.png"
             alt="Instagram Logo"
             className="w-32"
           />
@@ -67,7 +79,9 @@ const Login = () => {
           </p>
         </span>
         <span className="flex items-center justify-center m-1 space-x-1 text-center text-sm py-2 rounded-md cursor-pointer transition">
-          <p><a href="">Forgotten your password?</a></p>
+          <p>
+            <a href="">Forgotten your password?</a>
+          </p>
         </span>
       </div>
       <div className="flex justify-center items-center w-96 m-5 bg-gray-50">

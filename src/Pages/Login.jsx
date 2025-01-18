@@ -30,7 +30,6 @@ const Login = () => {
             className="w-32"
           />
         </div>
-
         {/* Login Form */}
         <form className="flex flex-col space-y-4">
           <input
@@ -63,12 +62,12 @@ const Login = () => {
             src="https://media.designrush.com/inspirations/280756/conversions/facebook-logo-preview.jpg"
             alt="fblogo"
           />
-          <p className="text-center text-[#3195F6] font-extrabold text-sm">
+          <p className="text-center text-[#3195F6] hover:text-gray-600 font-extrabold text-sm">
             Log in with Facebook
           </p>
         </span>
         <span className="flex items-center justify-center m-1 space-x-1 text-center text-sm py-2 rounded-md cursor-pointer transition">
-          <p>Forgotten your password?</p>
+          <p><a href="">Forgotten your password?</a></p>
         </span>
       </div>
       <div className="flex justify-center items-center w-96 m-5 bg-gray-50">

@@ -71,7 +71,7 @@ const Login = () => {
         <span className="flex items-center justify-center space-x-1 text-center py-2 rounded-md cursor-pointer transition">
           <img
             className="w-10 text-center"
-            src="https://media.designrush.com/inspirations/280756/conversions/facebook-logo-preview.jpg"
+            src="./src/assets/facebook-logo-preview.jpg"
             alt="fblogo"
           />
           <p className="text-center text-[#3195F6] hover:text-gray-600 font-extrabold text-sm">
@@ -97,12 +97,12 @@ const Login = () => {
         <div className="flex justify-center gap-2">
           <img
             className="w-40 h-10"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+            src="/src/assets/Google_Play.svg.png"
             alt="googleplay"
           />
           <img
             className="w-40 h-10"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7TO6rfkqNNVUKRbZfnVr0VMMQ1LUuvlCGA&s"
+            src="/src/assets/microStore.png"
             alt="microsoftstore"
           />
         </div>

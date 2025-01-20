@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../components/Loading";
-import SwiperCarousel from "../components/SwiperCarousel";
+import PhoneCarousel from "../components/PhoneCarousel";
 
 const Login = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,18 +21,9 @@ const Login = () => {
 
   // Render the login page after loading is complete
   return (
+    <div className="flex justify-center gap-5 items-center h-screen bg-gray-50">
+    <PhoneCarousel />
     <div className="flex flex-col justify-center items-center h-screen bg-gray-50">
-      <div className="flex w-[70%]  max-w-6xl space-x-8">
-        <div className="hidden lg:flex flex-col justify-center items-center relative">
-          <div className="relative">
-            <img
-              src="https://www.instagram.com/images/instagram/xig/homepage/screenshots/screenshot4.png?__d=www"
-              alt="mock up"
-            />
-          </div>
-          <SwiperCarousel />
-        </div>
-      </div>
       <div className="bg-white p-5 border border-gray-300 w-full max-w-sm">
         {/* Instagram Logo */}
         <div className="flex justify-center mb-6">
@@ -107,6 +98,7 @@ const Login = () => {
           />
         </div>
       </section>
+    </div>
     </div>
   );
 };

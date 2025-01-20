@@ -79,7 +79,7 @@ const Login = () => {
       <div className="flex justify-center items-center w-96 m-5 bg-gray-50">
         <div className="flex justify-center gap-2 text-sm bg-white p-5 border border-gray-300 text-center w-full max-w-2xl">
           <p>Don't have an account? </p>
-          <a href="" className="text-blue-500 font-semibold hover:underline">
+          <a href="/signup" className="text-blue-500 font-semibold hover:underline">
             Sign Up
           </a>
         </div>

@@ -6,7 +6,7 @@ import Signup from "./Pages/Signup";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <div>
         <Routes>
           {/* Route for Login */}
           <Route path="/login" element={<Login />} />

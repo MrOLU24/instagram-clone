@@ -22,6 +22,7 @@ const Login = () => {
   // Render the login page after loading is complete
   return (
     <div className="flex justify-center gap-5 items-center h-screen bg-gray-50">
+      {/* this is the carousel component */}
     <PhoneCarousel />
     <div className="flex flex-col justify-center items-center h-screen bg-gray-50">
       <div className="bg-white p-5 border border-gray-300 w-full max-w-sm">

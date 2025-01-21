@@ -10,38 +10,46 @@ const SignupPage = () => {
             alt="Instagram Logo"
             className="w-40"
           />
-            <p className="text-center text-gray-500 w-64">Sign up to see photos and videos from your friends.</p>
+          <p className="text-center text-gray-500 w-64">
+            Sign up to see photos and videos from your friends.
+          </p>
         </div>
         <span className="flex bg-[#0095F6] items-center justify-center space-x-2 hover:bg-blue-700 text-center py-2 rounded-md cursor-pointer transition">
-            <img
-              className="w-8 text-center"
-              src="./src/assets/facebook-logo-preview.jpg"
-              alt="fblogo"
-            />
-            <p className="text-center  text-white font-bold text-xs">
-              Log in with Facebook
-            </p>
-          </span>
+          <img
+            className="w-8 text-center"
+            src="./src/assets/facebook-logo-preview.jpg"
+            alt="fblogo"
+          />
+          <p className="text-center  text-white font-bold text-xs">
+            Log in with Facebook
+          </p>
+        </span>
+        {/* Separator */}
+        <div className="flex items-center justify-center my-4">
+          <span className="bg-gray-300 h-px flex-grow"></span>
+          <span className="px-3 text-gray-400 text-sm font-semibold">OR</span>
+          <span className="bg-gray-300 h-px flex-grow"></span>
+        </div>
         <form className="space-y-4 mt-4">
           <input
             type="email"
-            placeholder="Email"
-            className="w-full px-4 py-2 border rounded-md focus:ring focus:outline-none focus:ring-blue-300"
+            placeholder="Mobile number or email address"
+            className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
           <input
             type="text"
             placeholder="Full Name"
-            className="w-full px-4 py-2 border rounded-md focus:ring focus:outline-none focus:ring-blue-300"
+            className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
           <input
             type="text"
             placeholder="Username"
-            className="w-full px-4 py-2 border rounded-md focus:ring focus:outline-none focus:ring-blue-300"
+            className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
           <input
             type="password"
             placeholder="Password"
-            className="w-full px-4 py-2 border rounded-md focus:ring focus:outline-none focus:ring-blue-300"
+            className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
           <button
             type="submit"

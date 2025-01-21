@@ -37,8 +37,13 @@ const SignupPage = () => {
             className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
           <input
+            type="password"
+            placeholder="password"
+            className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
+          />
+          <input
             type="text"
-            placeholder="Full Name"
+            placeholder="Fullname"
             className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
           <input
@@ -46,11 +51,7 @@ const SignupPage = () => {
             placeholder="Username"
             className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
           />
-          <input
-            type="password"
-            placeholder="Password"
-            className="w-full px-4 py-2 border rounded-md focus:outline-none placeholder:text-xs"
-          />
+          <p className="text-center">People who use our service may have uploaded your contact information to Instagram. Learn more</p>
           <button
             type="submit"
             className="w-full py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300"

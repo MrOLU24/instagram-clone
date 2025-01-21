@@ -91,7 +91,6 @@ const Login = () => {
           <p className="text-sm m-2">Get the App</p>
           <div className="flex justify-center gap-2">
             <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DC4C01CE0-3CF9-4A6E-BC58-8045F5B87E4B%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1">
-              {" "}
               <img
                 className="w-40 h-10"
                 src="/src/assets/Google_Play.svg.png"
@@ -99,7 +98,6 @@ const Login = () => {
               />
             </a>
             <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1366%2C720">
-              {" "}
               <img
                 className="w-40 h-10"
                 src="/src/assets/microStore.png"

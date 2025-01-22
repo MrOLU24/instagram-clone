@@ -6,4 +6,5 @@ body{
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
+    box-sizing: border-box;
 }

@@ -2,10 +2,10 @@ import React from "react";
 
 const SignUp = () => {
   return (
-    <main className="h-screen bg-gray-200">
-      <div className="flex justify-center items-center h-screen">
-        <div className="flex bg-white items-center justify-center w-96 p-6 border border-gray-300">
-          <form className="space-y-1.5 mt-2">
+    <main className="mt-24">
+      <div className="flex flex-col justify-center items-center h-screen">
+        <div className="flex bg-white items-center justify-center w-96  border border-gray-300">
+          <form className="space-y-1.5 mt-2 p-6">
             <div className="flex justify-center flex-col items-center">
               <img
                 src="/src/assets/igimage.png"
@@ -36,12 +36,12 @@ const SignUp = () => {
             <input
               type="email"
               placeholder="Mobile number or email address"
-              className="w-full bg-slate-100  px-2 py-2 border border-gray-400 border-solid rounded-md focus:outline-none placeholder:text-xs"
+              className="w-full bg-slate-100 px-2 py-2 border border-gray-400 border-solid rounded-md focus:outline-none placeholder:text-xs"
             />
             <input
               type="password"
-              placeholder="password"
-              className="w-full bg-slate-100  px-2 py-2 border border-gray-400 border-solid rounded-md focus:outline-none placeholder:text-xs"
+              placeholder="Password"
+              className="w-full bg-slate-100 px-2 py-2 border border-gray-400 border-solid rounded-md focus:outline-none placeholder:text-xs"
             />
             <input
               type="text"
@@ -51,7 +51,7 @@ const SignUp = () => {
             <input
               type="text"
               placeholder="Username"
-              className="w-full bg-slate-100 px-2 py-2 border border-gray-400 border-soli rounded-md focus:outline-none placeholder:text-xs"
+              className="w-full bg-slate-100 px-2 py-2 border border-gray-400 border-solid rounded-md focus:outline-none placeholder:text-xs"
             />
             <span className="text-xs text-center flex gap-5 flex-col text-gray-500">
               <p>
@@ -73,6 +73,45 @@ const SignUp = () => {
               Sign Up
             </button>
           </form>
+        </div>
+        <div className="flex justify-center items-center w-full mt-2">
+          <div className="flex justify-center gap-2 text-sm bg-white p-4 border border-gray-300 w-96 text-center">
+            <p>Have an account?</p>
+            <a
+              href="/login"
+              className="text-blue-500 font-semibold hover:underline"
+            >
+              Log in
+            </a>
+          </div>
+        </div>
+        <section className="flex flex-col items-center justify-center w-full max-w-sm">
+          <p className="text-sm m-2">Get the App</p>
+          <div className="flex justify-center gap-2">
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DC4C01CE0-3CF9-4A6E-BC58-8045F5B87E4B%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1">
+              <img
+                className="w-40 h-10"
+                src="/src/assets/Google_Play.svg.png"
+                alt="googleplay"
+              />
+            </a>
+            <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1366%2C720">
+              <img
+                className="w-40 h-10"
+                src="/src/assets/microStore.png"
+                alt="microsoftstore"
+              />
+            </a>
+          </div>
+        </section>
+        <div className="flex justify-center items-center w-full mt-2">
+          <ul className="flex gap-2 text-sm text-gray-500">
+            <li>meta</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Jobs</li>
+            <li>Help</li>
+          </ul>
         </div>
       </div>
     </main>

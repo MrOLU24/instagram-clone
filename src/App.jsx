@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login";
-import Signdown from "./Pages/SignU";
-
+import SignUp from "./Pages/Signup";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
           {/* Route for Login */}
           <Route path="/login" element={<Login />} />
           {/* Route for Signup */}
-          <Route path="/signup" element={<Signdown/>} />
+          <Route path="/signup" element={<SignUp />} />
           {/* Default route (redirect to Login) */}
           <Route path="/" element={<Login />} />
         </Routes>

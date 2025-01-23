@@ -105,7 +105,7 @@ const SignUp = () => {
           </div>
         </section>
         <div className="flex justify-center items-center w-full mt-2">
-          <ul className="flex gap-2 text-sm text-gray-500 mt-10">
+          <ul className="flex gap-4 text-sm text-gray-500 mt-10">
             <li>meta</li>
             <li>About</li>
             <li>Blog</li>
@@ -118,6 +118,8 @@ const SignUp = () => {
             <li>Instagram lite</li>
             <li>Threads</li>
             <li>Contact uploading and non-users</li>
+            <li>Meta verified</li>
+            <li>English UK</li>
           </ul>
         </div>
       </div>

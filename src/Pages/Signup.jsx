@@ -120,6 +120,7 @@ const SignUp = () => {
             <li>Contact uploading and non-users</li>
             <li>Meta verified</li>
             <li>English UK</li>
+            <li>English (UK) © 2025 Instagram from Meta</li>
           </ul>
         </div>
       </div>
